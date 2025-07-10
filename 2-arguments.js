@@ -2,9 +2,9 @@ function arguments(arg1, arg2,) {
     if(arg1 === undefined && arg2 === undefined) {
         console.log("No arguments");
     } else if(arg1 !== undefined && arg2 === undefined) {
-        console.log("Argument found ", arg1);
+        console.log(arg1,"Argument found ");
     }else {
-        console.log("Arguments found")
+        console.log(arg1, arg2,"Arguments found")
     }
 }
 
