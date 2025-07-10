@@ -7,3 +7,8 @@ function arguments(arg1, arg2,) {
         console.log("Arguments found")
     }
 }
+
+// Test cases
+arguments(); // No arguments
+arguments("Best"); // Argument found    
+arguments("Best", "School"); // Arguments found
