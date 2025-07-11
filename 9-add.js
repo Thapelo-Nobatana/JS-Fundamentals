@@ -6,12 +6,12 @@ let num2 = parseInt(args[1]);
 if(isNaN(num1) || isNaN(num2)) {
     console.log(NaN);
 } else {
-    function add(num1, num2) {
+    function add(add1, add2) {
         let sum ;
-       sum =  num1 + num2;
+       sum =  add1 + add2;
 
        return sum
-}
+    }
 
     console.log(add(num1, num2));
 }
