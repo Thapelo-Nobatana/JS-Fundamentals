@@ -1,4 +1,4 @@
-const square = "x"
+const square = "X"
 const args = process.argv[2];
 let my_number = parseInt(args);
 
