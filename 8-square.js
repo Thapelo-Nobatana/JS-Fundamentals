@@ -1,5 +1,5 @@
 const square = "X"
-const args = process.argv[2];
+const args = process.argv.slice(2);
 let my_number = parseInt(args);
 
 if(my_number === undefined || isNaN(my_number)) {
